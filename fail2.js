@@ -1,0 +1,15 @@
+let money = 715000;
+let income = 'калым';
+let addExpenses = 'на покушать, на ынтырнет, на игоры';
+let deposit = true;
+let mission = 1000000;
+let period = 12;
+console.log('type money: ', typeof money);
+console.log('type income: ', typeof income);
+console.log('type deposit: ', typeof deposit);
+console.log('addExpenses: ', addExpenses.length);
+console.log('Периуд равен 12 месяцев.');
+console.log('Цель заработать 1000000 рублей/долларов/гривен/юани');
+console.log(addExpenses.toLocaleLowerCase().split(', '));
+const budgetDay = money / 30;
+console.log('budgetDay: ', budgetDay);
